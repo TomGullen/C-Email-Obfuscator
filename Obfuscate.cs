@@ -33,5 +33,13 @@ public static string ObfuscateEmailAddress(string email)
         reversedEmail = leftPart + "<span style=\"display:none\">" + randomString + "</span>" + rightPart;
     }
 
+    // Replace some chars with HTML entities
+    {
+        reversedEmail = reversedEmail.Replace("@", "&commat;");
+        reversedEmail = reversedEmail.Replace(".", "&#46;");
+        reversedEmail = reversedEmail.Replace("+", "&#x0002B;");
+        reversedEmail = reversedEmail.Replace("_", "&#x0005F;");
+    }
+
     return "<span class=\"emailAddress\" style=\"unicode-bidi:bidi-override; direction: rtl;\">" + reversedEmail + "</span>";
 }
