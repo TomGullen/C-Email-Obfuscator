@@ -1,7 +1,7 @@
 # C-Email-Obfuscator
 A simple and effective email obfuscator written in C#
 
-Pass a plaintext email address in, and it will return an obfuscated email address.
+Pass a plaintext email address in, and it will return an obfuscated email address.  Based on the tested methods here: http://superuser.com/questions/235937/does-e-mail-address-obfuscation-actually-work
 
 
 ##Examples##
