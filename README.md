@@ -10,7 +10,7 @@ Pass a plaintext email address in, and it will return an obfuscated email addres
 
 Will return
 
-`<span class="emailAddress" style="unicode-bidi:bidi-override; direction: rtl;">moc.elpmaxe<span style="display:none">evm</span>@liame+sserdda_tset</span>`
+`<span class="emailAddress" style="unicode-bidi:bidi-override; direction: rtl;">moc&#46;elpmaxe<span style="display:none">oof</span>&commat;liame&#x0002B;sserdda_tset</span>`
 
 ##Limitations##
 
